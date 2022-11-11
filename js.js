@@ -22,7 +22,7 @@ let weather={
         document.querySelector(".temp").innerText=temp+"°C";
         document.querySelector(".how").innerText= description;
         document.querySelector(".wind").innerText="Wind Speed: "+ speed;
-        document.querySelector(".humidity").innerText="umidity:"+humidity+"%";
+        document.querySelector(".humidity").innerText="Humidity:"+humidity+"%";
         document.querySelector(".icon").src="https://openweathermap.org/img/wn/"+icon+".png";
     },
     search: function(){
